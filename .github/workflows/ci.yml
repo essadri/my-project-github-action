@@ -32,7 +32,7 @@ jobs:
           run:  ./gradlew build
         
         - name: build and push the image to dockerhub
-          uses: uses: mr-smithers-excellent/docker-build-push@v6                  #this an ready action to build and push you just give it the args
+          uses: mr-smithers-excellent/docker-build-push@v6                  #this an ready action to build and push you just give it the args
           with:
             image: jawadessadri123/repo1
             registry: docker.io
